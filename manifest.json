@@ -39,8 +39,7 @@
     "web_accessible_resources": [
         {
             "resources": [
-                "/icons/*",
-                "/data/*/*.json"
+                "/icons/*"
             ],
             "matches": [
                 "*://music.youtube.com/*"
