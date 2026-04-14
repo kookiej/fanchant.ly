@@ -214,7 +214,6 @@ function loadData(songInfo) {
   }, (res) => {
     fanchantData = res?.data || [];
     fanchantData.length ? renderFanchantList() : console.log(`No Data: ${songInfo.title} - ${songInfo.artist}`);
-    console.log(fanchantData);
     updateButtonUI();
   });
 }
