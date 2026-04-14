@@ -1,0 +1,7 @@
+# resources for audio AI API
+data/resources/audio/
+data/resources/lyrics/
+
+*.csv
+*.png
+*.py
