@@ -240,31 +240,6 @@ setInterval(() => {
   // 현재 재생 위치에 해당하는 fanchantData 인덱스 찾기
   let currentLineIndex = -1;
 
-  /*// mode ON: fanchantData 전체 기준 / mode OFF: lyrics 항목만 기준
-  if (modeActive) {
-    // fanchantData 전체 순회
-    for (let i = 0; i < fanchantData.length; i++) {
-      const startTime = fanchantData[i].line?.time ?? fanchantData[i].fanChant?.[0]?.time ?? fanchantData[i].lyrics?.time;
-      const next = fanchantData[i + 1];
-      const endTime = next ? (next.line?.time ?? next.fanChant?.[0]?.time ?? next.lyrics?.time) : 9999;
-
-      if (currentTime >= startTime && currentTime < endTime) {
-        currentLineIndex = i;
-        break;
-      }
-    }
-  } else {
-    // lyrics 항목만 순회
-    const lyricsItems = fanchantData.filter(item => item.lyrics);
-    for (let i = 0; i < lyricsItems.length; i++) {
-      const startTime = lyricsItems[i].lyrics.time;
-      const next = lyricsItems[i + 1];
-      const endTime = next ? next.lyrics.time : 9999;
-      if (currentTime >= startTime && currentTime < endTime) { currentLineIndex = i; break; }
-    }
-  }
-  */
-
   for (let i = 0; i < fanchantData.length; i++) {
     const startTime = fanchantData[i].line?.time ?? fanchantData[i].fanChant?.[0]?.time;
     const next = fanchantData[i + 1];
