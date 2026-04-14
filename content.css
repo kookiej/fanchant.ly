@@ -1,0 +1,104 @@
+#fanchant-mode-btn {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  margin-right: 8px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#fanchant-mode-btn img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  filter: invert(1);
+  transition: all 0.3s ease;
+}
+
+#fanchant-mode-btn.active img {
+  animation: light-glow 1.5s infinite alternate;
+}
+
+@keyframes light-glow {
+  from {
+    filter: invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.7));
+  }
+
+  to {
+    filter: invert(1) drop-shadow(0 0 20px rgba(255, 255, 255, 1.0)) drop-shadow(0 0 35px rgba(255, 255, 255, 0.8));
+  }
+}
+
+#fanchant-mode-btn:disabled {
+  cursor: default;
+}
+
+#fanchant-mode-btn:disabled img {
+  filter: invert(1) brightness(0.5);
+  transition: all 0.3s ease;
+}
+
+#fanchant-wrapper {
+  width: 100%;
+  height: auto;
+  padding: 50px 0 50px 0;
+  display: flex;
+}
+
+/* mode OFF: fanchant span 숨김 */
+#fanchant-wrapper:not(.fanchant-active) .fanchant {
+  display: none;
+}
+
+/* mode OFF: fanChant only 라인 숨김 */
+#fanchant-wrapper:not(.fanchant-active) .fanchant-line:not(:has(.lyrics, .lyrics-part)) {
+  display: none;
+}
+
+#fanchant-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.fanchant-line {
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: all 0.09s ease;
+  padding: 10px 20px;
+  text-align: left;
+  white-space: pre-wrap;
+}
+
+.fanchant-line:not(.active) .fanchant,
+#fanchant-wrapper.fanchant-active .fanchant-line:not(.active) .lyrics-part {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.fanchant-line.active {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+}
+
+.fanchant,
+.lyrics-part {
+  color: inherit;
+  transition: all 0.09s ease;
+}
+
+.fanchant.active,
+.lyrics-part.active {
+  color: rgba(255, 255, 255, 1.0);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+ytmusic-description-shelf-renderer.fanchant-mode .wrapper {
+  display: none;
+}

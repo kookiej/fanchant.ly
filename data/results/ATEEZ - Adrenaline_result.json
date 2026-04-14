@@ -1,0 +1,548 @@
+{
+    "resultCode": 1000,
+    "resultData": {
+        "resultType": "json",
+        "EC": {
+            "EC0": true,
+            "EC4": true,
+            "EC8": true
+        },
+        "text": [
+            {
+                "no": 1,
+                "time": "0.9",
+                "text": "Pull up the bass",
+                "confidence": "100"
+            },
+            {
+                "no": 2,
+                "time": "2.7",
+                "text": "Up all the way",
+                "confidence": "98"
+            },
+            {
+                "no": 3,
+                "time": "4.6",
+                "text": "You know my taste",
+                "confidence": "99"
+            },
+            {
+                "no": 4,
+                "time": "6.4",
+                "text": "Move outta way",
+                "confidence": "97"
+            },
+            {
+                "no": 5,
+                "time": "7.3",
+                "text": "I'm ready 도파민은 최고치",
+                "confidence": "100"
+            },
+            {
+                "no": 6,
+                "time": "9.1",
+                "text": "한 번 돌면 걍 Straight",
+                "confidence": "100"
+            },
+            {
+                "no": 7,
+                "time": "10.2",
+                "text": "No therapy",
+                "confidence": "100"
+            },
+            {
+                "no": 8,
+                "time": "11.4",
+                "text": "0-100 박차고 나와 Garage",
+                "confidence": "97"
+            },
+            {
+                "no": 9,
+                "time": "12.8",
+                "text": "우리 존재 자체로 인증 Guarantee",
+                "confidence": "100"
+            },
+            {
+                "no": 10,
+                "time": "15.6",
+                "text": "안 떨어져 Gauge",
+                "confidence": "98"
+            },
+            {
+                "no": 11,
+                "time": "17.5",
+                "text": "Full 충전 max",
+                "confidence": "99"
+            },
+            {
+                "no": 12,
+                "time": "19.1",
+                "text": "Hardcore해 여기 방식",
+                "confidence": "99"
+            },
+            {
+                "no": 13,
+                "time": "20.6",
+                "text": "No limit, no gimmick, go get it all day",
+                "confidence": "100"
+            },
+            {
+                "no": 14,
+                "time": "22.3",
+                "text": "Out of control",
+                "confidence": "99"
+            },
+            {
+                "no": 15,
+                "time": "23.9",
+                "text": "더 미쳐가네 Speakers goin' crazy",
+                "confidence": "99"
+            },
+            {
+                "no": 16,
+                "time": "26.1",
+                "text": "Out of control",
+                "confidence": "100"
+            },
+            {
+                "no": 17,
+                "time": "28.0",
+                "text": "Rocket's ‘bout to blow, you better tighten up",
+                "confidence": "94"
+            },
+            {
+                "no": 18,
+                "time": "30.2",
+                "text": "온몸을 적신 땀이 흐르게",
+                "confidence": "98"
+            },
+            {
+                "no": 19,
+                "time": "34.9",
+                "text": "Turn up the heat, breakin' the peaks and we're on repeat",
+                "confidence": "97"
+            },
+            {
+                "no": 20,
+                "time": "38.3",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 21,
+                "time": "40.7",
+                "text": "Flushin' through my veins",
+                "confidence": "99"
+            },
+            {
+                "no": 22,
+                "time": "42.0",
+                "text": "시동 걸어 막 활활 타오르게",
+                "confidence": "98"
+            },
+            {
+                "no": 23,
+                "time": "46.0",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 24,
+                "time": "48.4",
+                "text": "Runnin' through my veins",
+                "confidence": "99"
+            },
+            {
+                "no": 25,
+                "time": "49.8",
+                "text": "Buzzin' up my neck, pumpin' Adrenaline",
+                "confidence": "99"
+            },
+            {
+                "no": 26,
+                "time": "53.5",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 27,
+                "time": "55.9",
+                "text": "Flushin' through my veins",
+                "confidence": "99"
+            },
+            {
+                "no": 28,
+                "time": "57.3",
+                "text": "시동 걸어 막 활활 타오르게",
+                "confidence": "99"
+            },
+            {
+                "no": 29,
+                "time": "61.2",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 30,
+                "time": "63.5",
+                "text": "Runnin' through my veins",
+                "confidence": "100"
+            },
+            {
+                "no": 31,
+                "time": "65.0",
+                "text": "Buzzin' up my neck, pumpin' Adrenaline",
+                "confidence": "96"
+            },
+            {
+                "no": 32,
+                "time": "67.8",
+                "text": "Let's go",
+                "confidence": "84"
+            },
+            {
+                "no": 33,
+                "time": "73.9",
+                "text": "We're pumpin' Adrenaline",
+                "confidence": "95"
+            },
+            {
+                "no": 34,
+                "time": "81.4",
+                "text": "We're pumpin' Adrenaline",
+                "confidence": "97"
+            },
+            {
+                "no": 35,
+                "time": "85.9",
+                "text": "Why you tryna be alone I know you want it",
+                "confidence": "97"
+            },
+            {
+                "no": 36,
+                "time": "89.6",
+                "text": "조명 사이로 보이는 너의 눈빛",
+                "confidence": "98"
+            },
+            {
+                "no": 37,
+                "time": "93.4",
+                "text": "감당할 수 없이 흔들리는 이성이",
+                "confidence": "98"
+            },
+            {
+                "no": 38,
+                "time": "97.2",
+                "text": "I get you're nervous",
+                "confidence": "98"
+            },
+            {
+                "no": 39,
+                "time": "99.1",
+                "text": "Guess that's your purpose",
+                "confidence": "100"
+            },
+            {
+                "no": 40,
+                "time": "100.7",
+                "text": "Gasoline in my blood",
+                "confidence": "96"
+            },
+            {
+                "no": 41,
+                "time": "102.0",
+                "text": "I'm set to burn this track",
+                "confidence": "100"
+            },
+            {
+                "no": 42,
+                "time": "103.9",
+                "text": "감각은 Breakin' out speedster",
+                "confidence": "99"
+            },
+            {
+                "no": 43,
+                "time": "106.4",
+                "text": "더 질주해 Burner further",
+                "confidence": "98"
+            },
+            {
+                "no": 44,
+                "time": "108.5",
+                "text": "A 파고드는 감정을 주체할 수 없어",
+                "confidence": "97"
+            },
+            {
+                "no": 45,
+                "time": "111.2",
+                "text": "Drippin' in the heat",
+                "confidence": "99"
+            },
+            {
+                "no": 46,
+                "time": "112.3",
+                "text": "I'm high on the ride",
+                "confidence": "92"
+            },
+            {
+                "no": 47,
+                "time": "114.3",
+                "text": "혈관 속으로 타오르는 심박수",
+                "confidence": "99"
+            },
+            {
+                "no": 48,
+                "time": "116.4",
+                "text": "I can feel it go",
+                "confidence": "99"
+            },
+            {
+                "no": 49,
+                "time": "118.8",
+                "text": "Flushin' through my veins",
+                "confidence": "99"
+            },
+            {
+                "no": 50,
+                "time": "120.2",
+                "text": "시동 걸어 막 활활 타오르게",
+                "confidence": "98"
+            },
+            {
+                "no": 51,
+                "time": "124.0",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 52,
+                "time": "126.4",
+                "text": "Runnin' through my veins",
+                "confidence": "99"
+            },
+            {
+                "no": 53,
+                "time": "127.9",
+                "text": "Buzzin' up my neck, pumpin' Adrenaline",
+                "confidence": "99"
+            },
+            {
+                "no": 54,
+                "time": "131.6",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 55,
+                "time": "134",
+                "text": "Flushin' through my veins",
+                "confidence": "99"
+            },
+            {
+                "no": 56,
+                "time": "135.4",
+                "text": "시동 걸어 막 활활 타오르게",
+                "confidence": "99"
+            },
+            {
+                "no": 57,
+                "time": "139.3",
+                "text": "I can feel it go",
+                "confidence": "98"
+            },
+            {
+                "no": 58,
+                "time": "141.7",
+                "text": "Runnin' through my veins",
+                "confidence": "98"
+            },
+            {
+                "no": 59,
+                "time": "143.0",
+                "text": "Buzzin' up my neck, pumpin' Adrenaline",
+                "confidence": "95"
+            },
+            {
+                "no": 60,
+                "time": "147.6",
+                "text": "Let's go",
+                "confidence": "96"
+            },
+            {
+                "no": 61,
+                "time": "153.7",
+                "text": "We're pumpin' Adrenaline",
+                "confidence": "94"
+            },
+            {
+                "no": 62,
+                "time": "161.4",
+                "text": "We're pumpin' Adrenaline",
+                "confidence": "98"
+            },
+            {
+                "no": 63,
+                "time": "163.3",
+                "text": "심장이 폭발해 Ready to go",
+                "confidence": "99"
+            },
+            {
+                "no": 64,
+                "time": "167.4",
+                "text": "Pit stop은 없어 no time for the slow",
+                "confidence": "97"
+            },
+            {
+                "no": 65,
+                "time": "171.1",
+                "text": "전부를 태워 This track is my throne",
+                "confidence": "97"
+            },
+            {
+                "no": 66,
+                "time": "175.1",
+                "text": "한계선을 넘어 It's over",
+                "confidence": "98"
+            },
+            {
+                "no": 67,
+                "time": "181.5",
+                "text": "Turn that thing up",
+                "confidence": "97"
+            },
+            {
+                "no": 68,
+                "time": "196.1",
+                "text": "We're pumpin' Adrenaline",
+                "confidence": "22"
+            },
+            {
+                "no": 69,
+                "time": "197.9",
+                "text": "Whoa whoa",
+                "confidence": "66"
+            },
+            {
+                "no": 70,
+                "time": "199.0",
+                "text": "We're lightin' up",
+                "confidence": "91"
+            },
+            {
+                "no": 71,
+                "time": "199.9",
+                "text": "Whoa whoa",
+                "confidence": "96"
+            },
+            {
+                "no": 72,
+                "time": "200.8",
+                "text": "We're goin' crazy",
+                "confidence": "94"
+            },
+            {
+                "no": 73,
+                "time": "201.9",
+                "text": "Whoa whoa",
+                "confidence": "98"
+            },
+            {
+                "no": 74,
+                "time": "202.8",
+                "text": "We fire up",
+                "confidence": "100"
+            },
+            {
+                "no": 75,
+                "time": "203.6",
+                "text": "Whoa whoa",
+                "confidence": "100"
+            },
+            {
+                "no": 76,
+                "time": "204.7",
+                "text": "Hand me my trophy",
+                "confidence": "100"
+            },
+            {
+                "no": 77,
+                "time": "205.6",
+                "text": "Whoa whoa",
+                "confidence": "100"
+            },
+            {
+                "no": 78,
+                "time": "206.5",
+                "text": "Runnin' it cold",
+                "confidence": "100"
+            },
+            {
+                "no": 79,
+                "time": "207.6",
+                "text": "Whoa whoa",
+                "confidence": "98"
+            },
+            {
+                "no": 80,
+                "time": "208.5",
+                "text": "Blow up the party",
+                "confidence": "100"
+            },
+            {
+                "no": 81,
+                "time": "209.6",
+                "text": "Whoa whoa",
+                "confidence": "100"
+            },
+            {
+                "no": 82,
+                "time": "210.4",
+                "text": "Nowhere to go",
+                "confidence": "100"
+            },
+            {
+                "no": 83,
+                "time": "211.3",
+                "text": "We're pumpin' Adrenaline",
+                "confidence": "98"
+            }
+        ],
+        "summaryReport": {
+            "InAudioFileID": "ATEEZ - Adrenaline",
+            "InLyricsFileID": "ATEEZ - Adrenaline",
+            "OutLyricsFileID": "ATEEZ - Adrenaline",
+            "playTime": 219.92006802721087,
+            "Lang": {
+                "hangul": false,
+                "english": true,
+                "hanja": false,
+                "japanese": false
+            },
+            "NOL_in": 83,
+            "NOL_out": 83
+        },
+        "syncReport": {
+            "mCL": 21.834861755371094,
+            "aCL": 96.62246704101562,
+            "sdCL": 9.320096015930176,
+            "Ncut": 1,
+            "Lf": [
+                [
+                    67,
+                    184.8,
+                    21.8
+                ]
+            ],
+            "LOK": 55,
+            "DL": [],
+            "NL": [
+                [
+                    8,
+                    "0-100 박차고 나와 Garage"
+                ]
+            ],
+            "ET": [],
+            "EL": []
+        }
+    }
+}
