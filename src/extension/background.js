@@ -2,7 +2,7 @@ const fanchantDB = {}
 
 async function fetchData(title, artist) {
     const chantUrl = `https://cdn.jsdelivr.net/gh/kookiej/fanchant.ly/data/resources/chant/${artist} - ${title}.json`;
-    const resultUrl = `https://cdn.jsdelivr.net/gh/kookiej/fanchant.ly/data/results/${artist} - ${title}_result.json`;
+    const resultUrl = `https://cdn.jsdelivr.net/gh/kookiej/fanchant.ly/data/results/file/${artist} - ${title}_result.json`;
 
     const [chantRes, resultRes] = await Promise.allSettled([
         fetch(chantUrl).then(r => r.ok ? r.json() : null).catch(() => null),
