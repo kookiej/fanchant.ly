@@ -57,7 +57,6 @@ function createFanchantButton() {
   // 버튼 클릭: 응원법 모드 토글 (마스터 스위치에 영향 X)
   btn.onclick = () => {
     modeActive = !modeActive;
-    // if (fanchantData.length) renderFanchantList();
     updateButtonUI();
     chrome.storage.local.set({ lastModeState: modeActive });
   };
