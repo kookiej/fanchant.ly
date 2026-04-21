@@ -11,7 +11,7 @@
     "action": {
         "default_icon": "/icons/icon-16.png",
         "default_title": "Fanchant.ly",
-        "default_popup": "popup.html"
+        "default_popup": "/src/extension/popup.html"
     },
     "host_permissions": [
         "*://music.youtube.com/*"
@@ -21,7 +21,7 @@
         "activeTab"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "/src/extension/background.js"
     },
     "content_scripts": [
         {
@@ -29,10 +29,10 @@
                 "*://music.youtube.com/*"
             ],
             "js": [
-                "content.js"
+                "/src/extension/content.js"
             ],
             "css": [
-                "content.css"
+                "/src/extension/content.css"
             ]
         }
     ],
