@@ -2,6 +2,12 @@
 data/resources/audio/
 data/resources/lyrics/
 
+# result URLs of audio AI API
+data/results/URLs.json
+
+# source codes to run audio AI API
+src/gaudio
+
 # pycache
 __pycache__
 
