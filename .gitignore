@@ -2,6 +2,9 @@
 data/resources/audio/
 data/resources/lyrics/
 
+# pycache
+__pycache__
+
 # vscode debugging
 .vscode
 
